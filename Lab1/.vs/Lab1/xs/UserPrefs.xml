@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{9147AA66-6DA3-FA0C-26AF-E76670CFEF39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ConeScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CubeScript.cs">
     <Files>
-      <File FileName="Assets/CubeScript.cs" Line="82" Column="13" />
+      <File FileName="Assets/CubeScript.cs" Line="137" Column="1" />
       <File FileName="Assets/PyramidScript.cs" Line="35" Column="4" />
       <File FileName="Assets/VertexColorShader.shader" Line="9" Column="4" />
-      <File FileName="Assets/ConeScript.cs" Line="79" Column="24" />
+      <File FileName="Assets/ConeScript.cs" Line="83" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/gilbert/Desktop/graphics lab/Lab1/Assets/ConeScript.cs" relfile="Assets/ConeScript.cs" line="54" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

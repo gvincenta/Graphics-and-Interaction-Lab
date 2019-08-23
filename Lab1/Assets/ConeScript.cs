@@ -70,16 +70,18 @@ public class ConeScript : MonoBehaviour
 
         // Define the vertices. These are the "points" in 3D space that allow us to
         // construct 3D geometry (by connecting groups of 3 points into triangles).
-        m.vertices = new [] { new Vector3(1.0f, -1.0f, 1.0f),
-   new Vector3(1.0f, 1.0f, 1.0f),
-        m.vertices[2] = new Vector3(-1.0f, 1.0f, 1.0f)};
+        m.vertices = new Vector3[3];
 
-
+        m.vertices[0] = new Vector3(1.0f, -1.0f, 1.0f);
+        m.vertices[1] = new Vector3(1.0f, 1.0f, 1.0f);
+        m.vertices[2] = new Vector3(-1.0f, 1.0f, 1.0f);
         // Define the vertex colours
-        m.colors = new [] {Color.black,
-        Color.red,
-       Color.red
-        };
+        m.colors = new Color[3];
+        m.colors[0] = Color.red;
+        m.colors[1] = Color.red;
+
+        m.colors[2] = Color.red;
+
 
         
 
